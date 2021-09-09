@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+/* reset styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: aliceblue;
+}
+/* Main Styles */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 80%;
+    height: 52vh;
+    margin: 1em auto; 
+    border-right-style: dashed;
+    border-left-style: dashed;
+    border-radius: 1em;  
+}
+h1{
+    margin-bottom:1em;
+
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    font-size: 1.2rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 0.1em;
+    margin: 1em auto;
+    border-radius: 0.2em;
+}
+div{
+    font-size: 1.5rem;
+}
